@@ -3,7 +3,6 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Kang Yu'
 SITENAME = "Kang's log"
-SITEURL = 'http://www.kangyu.org'
 TIMEZONE = "Europe/Berlin"
 
 # can be useful in development, but set to False when you're ready to publish
@@ -47,7 +46,14 @@ STATIC_PATHS = [
 
 # custom page generated with a jinja2 template
 TEMPLATE_PAGES = {'pages/jinja2_template.html': 'jinja2_template.html'}
-PAGE_ORDER_BY = 'page-order'
+
+SITEURL = '/blog'
+OUTPUT_PATH = 'output/blog'
+PAGE_URL = '../{slug}.html'
+PAGE_SAVE_AS = '../{slug}.html'
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = [('Home', '/'), ('Blog', '/blog/')]
 
 # code blocks with line numbers
 PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
