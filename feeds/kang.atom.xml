@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Kang Yu</title><link href="http://kang-yu.github.com/" rel="alternate"></link><link href="http://kang-yu.github.com/feeds%5Ckang.atom.xml" rel="self"></link><id>http://kang-yu.github.com/</id><updated>2014-08-08T16:59:00+02:00</updated><entry><title>Blogging with Pelican and GitHub pages</title><link href="http://kang-yu.github.com/blogging-with-pelican-and-github-pages.html" rel="alternate"></link><updated>2014-08-08T16:59:00+02:00</updated><author><name>Kang</name></author><id>tag:kang-yu.github.com,2014-08-08:blogging-with-pelican-and-github-pages.html</id><summary type="html">&lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Kang Yu</title><link href="http://kang-yu.github.com/" rel="alternate"></link><link href="http://kang-yu.github.com/feeds%5Ckang.atom.xml" rel="self"></link><id>http://kang-yu.github.com/</id><updated>2014-08-08T16:59:00+02:00</updated><entry><title>Blogging with Pelican and GitHub pages</title><link href="http://kang-yu.github.com/blogging-with-pelican-and-github-pages.html" rel="alternate"></link><updated>2014-08-08T16:59:00+02:00</updated><author><name>Kang</name></author><id>tag:kang-yu.github.com,2014-08-08:blogging-with-pelican-and-github-pages.html</id><summary type="html">&lt;h1&gt;Recording how I created this blog site&lt;/h1&gt;
+&lt;h2&gt;Update the deployed github page&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;# update local file from remote&lt;/span&gt;
 &lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;
 &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;pull&lt;/span&gt; &lt;span class="n"&gt;origin&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
@@ -25,15 +21,21 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;custom pelican-theme&lt;/p&gt;
+&lt;p&gt;custom pelican-themes&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;blog&lt;/span&gt;
 &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;clone&lt;/span&gt; &lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//github.com/getpelican/pelican-themes.git&lt;/span&gt;
+&lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;themes&lt;/span&gt;  
+&lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;themes&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="n"&gt;bootstrap2&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
+&lt;h2&gt;Create a About page&lt;/h2&gt;
 &lt;p&gt;creat the "pages" fold for individual pages, e.g., a about-me page &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;mkdir&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</summary><category term="pelican"></category><category term="github"></category><category term="python"></category></entry><entry><title>My first painful pelican post in win 7</title><link href="http://kang-yu.github.com/my-first-painful-pelican-post-in-win-7.html" rel="alternate"></link><updated>2014-08-08T00:00:00+02:00</updated><author><name>Kang</name></author><id>tag:kang-yu.github.com,2014-08-08:my-first-painful-pelican-post-in-win-7.html</id><summary type="html">&lt;h1&gt;Hello!&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;mkdir&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt; &lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="n"&gt;can&lt;/span&gt; &lt;span class="n"&gt;be&lt;/span&gt; &lt;span class="n"&gt;done&lt;/span&gt; &lt;span class="n"&gt;by&lt;/span&gt; &lt;span class="n"&gt;adding&lt;/span&gt; &lt;span class="n"&gt;new&lt;/span&gt; &lt;span class="n"&gt;fold&lt;/span&gt; &lt;span class="n"&gt;manually&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;creat a new aboutme.md in the pages fold, and it's done.&lt;/p&gt;</summary><category term="pelican"></category><category term="github"></category><category term="python"></category></entry><entry><title>My first painful pelican post in win 7</title><link href="http://kang-yu.github.com/my-first-painful-pelican-post-in-win-7.html" rel="alternate"></link><updated>2014-08-08T00:00:00+02:00</updated><author><name>Kang</name></author><id>tag:kang-yu.github.com,2014-08-08:my-first-painful-pelican-post-in-win-7.html</id><summary type="html">&lt;h1&gt;Hello!&lt;/h1&gt;
 &lt;p&gt;Can you explain how it was painful to get Pelican+GitHub done in win?&lt;/p&gt;
 &lt;p&gt;No!&lt;/p&gt;
 &lt;p&gt;You can't?&lt;/p&gt;

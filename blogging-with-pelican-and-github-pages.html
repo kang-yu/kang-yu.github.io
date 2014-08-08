@@ -63,12 +63,8 @@
               </address>
             </footer><!-- /.post-info -->
             <div class="entry-content">
-              <p>&lt;在这里填写文件内容&gt;</p>
-<p>&lt;在这里填写文件内容&gt;</p>
-<p>&lt;在这里填写文件内容&gt;</p>
-<p>&lt;在这里填写文件内容&gt;</p>
-<p>&lt;在这里填写文件内容&gt;</p>
-<p>&lt;在这里填写文件内容&gt;</p>
+              <h1>Recording how I created this blog site</h1>
+<h2>Update the deployed github page</h2>
 <div class="highlight"><pre><span class="cp"># update local file from remote</span>
 <span class="n">cd</span> <span class="n">output</span>
 <span class="n">git</span> <span class="n">pull</span> <span class="n">origin</span> <span class="n">master</span>
@@ -89,15 +85,21 @@
 </pre></div>
 
 
-<p>custom pelican-theme</p>
+<p>custom pelican-themes</p>
 <div class="highlight"><pre><span class="n">cd</span> <span class="n">blog</span>
 <span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="o">:</span><span class="c1">//github.com/getpelican/pelican-themes.git</span>
+<span class="n">cd</span> <span class="n">pelican</span><span class="o">-</span><span class="n">themes</span>  
+<span class="n">pelican</span><span class="o">-</span><span class="n">themes</span> <span class="o">-</span><span class="n">i</span> <span class="n">bootstrap2</span>
 </pre></div>
 
 
+<h2>Create a About page</h2>
 <p>creat the "pages" fold for individual pages, e.g., a about-me page </p>
-<div class="highlight"><pre><span class="n">mkdir</span> <span class="n">content</span><span class="o">/</span><span class="n">pages</span>
+<div class="highlight"><pre><span class="n">mkdir</span> <span class="n">content</span><span class="o">/</span><span class="n">pages</span> <span class="err">#</span> <span class="n">can</span> <span class="n">be</span> <span class="n">done</span> <span class="n">by</span> <span class="n">adding</span> <span class="n">new</span> <span class="n">fold</span> <span class="n">manually</span>
 </pre></div>
+
+
+<p>creat a new aboutme.md in the pages fold, and it's done.</p>
             </div><!-- /.entry-content -->
 
 
@@ -119,10 +121,10 @@
 
 <h4>Tags</h4>
 	<ul>
-	    <li class="tag-4"><a href="http://kang-yu.github.com/tag/pelican.html">pelican</a></li>
-	    <li class="tag-4"><a href="http://kang-yu.github.com/tag/win.html">win</a></li>
 	    <li class="tag-4"><a href="http://kang-yu.github.com/tag/python.html">python</a></li>
+	    <li class="tag-4"><a href="http://kang-yu.github.com/tag/win.html">win</a></li>
 	    <li class="tag-4"><a href="http://kang-yu.github.com/tag/blog.html">blog</a></li>
+	    <li class="tag-4"><a href="http://kang-yu.github.com/tag/pelican.html">pelican</a></li>
 	    <li class="tag-1"><a href="http://kang-yu.github.com/tag/github.html">github</a></li>
 </ul>
 
