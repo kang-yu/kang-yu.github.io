@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kang Yu</title><link>http://kang-yu.github.com/</link><description></description><atom:link href="http://kang-yu.github.com/feeds%5Ckang.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 08 Aug 2014 16:59:00 +0200</lastBuildDate><item><title>Pelican GitHub page</title><link>http://kang-yu.github.com/pelican-github-page.html</link><description>&lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kang Yu</title><link>http://kang-yu.github.com/</link><description></description><atom:link href="http://kang-yu.github.com/feeds%5Ckang.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 08 Aug 2014 16:59:00 +0200</lastBuildDate><item><title>Blogging with Pelican and GitHub pages</title><link>http://kang-yu.github.com/blogging-with-pelican-and-github-pages.html</link><description>&lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
 &lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
 &lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
 &lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
 &lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
 &lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;# update local file from remote&lt;/span&gt;
+&lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;
 &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;pull&lt;/span&gt; &lt;span class="n"&gt;origin&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
 
 &lt;span class="cp"&gt;# update site from local&lt;/span&gt;
@@ -16,10 +17,25 @@
 &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;add&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;
 &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;commit&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Update&amp;quot;&lt;/span&gt;
 &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;push&lt;/span&gt;
-&lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="p"&gt;..&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kang</dc:creator><pubDate>Fri, 08 Aug 2014 16:59:00 +0200</pubDate><guid>tag:kang-yu.github.com,2014-08-08:pelican-github-page.html</guid><category>pelican</category><category>github</category><category>python</category></item><item><title>My first painful pelican post in win 7</title><link>http://kang-yu.github.com/My%20first%20painful%20pelican%20post%20in%20win%207.html</link><description>&lt;h1&gt;Hello!&lt;/h1&gt;
-&lt;p&gt;Can't you explain how it was painful to get Pelican+GitHub done in win?&lt;/p&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;custom url using Slug in Markdown, e.g.,&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Slug&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;My&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;first&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;painful&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="k"&gt;in&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;win&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;custom pelican-theme&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;blog&lt;/span&gt;
+&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;clone&lt;/span&gt; &lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//github.com/getpelican/pelican-themes.git&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;creat the "pages" fold for individual pages, e.g., a about-me page &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;mkdir&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kang</dc:creator><pubDate>Fri, 08 Aug 2014 16:59:00 +0200</pubDate><guid>tag:kang-yu.github.com,2014-08-08:blogging-with-pelican-and-github-pages.html</guid><category>pelican</category><category>github</category><category>python</category></item><item><title>My first painful pelican post in win 7</title><link>http://kang-yu.github.com/my-first-painful-pelican-post-in-win-7.html</link><description>&lt;h1&gt;Hello!&lt;/h1&gt;
+&lt;p&gt;Can you explain how it was painful to get Pelican+GitHub done in win?&lt;/p&gt;
 &lt;p&gt;No!&lt;/p&gt;
 &lt;p&gt;You can't?&lt;/p&gt;
 &lt;p&gt;No! &lt;/p&gt;
-&lt;p&gt;No, I did not say i can't, but I do not want to. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kang</dc:creator><pubDate>Fri, 08 Aug 2014 00:00:00 +0200</pubDate><guid>tag:kang-yu.github.com,2014-08-08:My first painful pelican post in win 7.html</guid><category>blog，tag text</category></item></channel></rss>
+&lt;p&gt;No, I did not say i can't, but I do not want to. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kang</dc:creator><pubDate>Fri, 08 Aug 2014 00:00:00 +0200</pubDate><guid>tag:kang-yu.github.com,2014-08-08:my-first-painful-pelican-post-in-win-7.html</guid><category>blog</category><category>github</category><category>win</category></item></channel></rss>
