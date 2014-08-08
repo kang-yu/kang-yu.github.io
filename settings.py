@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-AUTHOR = 'Alexis Métaireau'
-SITENAME = "Alexis' log"
-SITEURL = 'http://blog.notmyidea.org'
-TIMEZONE = "Europe/Paris"
+AUTHOR = 'Kang Yu'
+SITENAME = "Kang's log"
+SITEURL = 'http://www.kangyu.org'
+TIMEZONE = "Europe/Berlin"
 
 # can be useful in development, but set to False when you're ready to publish
 RELATIVE_URLS = True
 
-GITHUB_URL = 'http://github.com/ametaireau/'
+GITHUB_URL = 'http://github.com/kang-yu/'
 DISQUS_SITENAME = "blog-notmyidea"
 PDF_GENERATOR = False
 REVERSE_CATEGORY_ORDER = True
