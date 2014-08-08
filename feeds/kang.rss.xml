@@ -5,9 +5,11 @@
 &lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
 &lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
 &lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
-&lt;p&gt;pelican -s pelicanconf.py content -o output
+&lt;p&gt;cd blog
+pelican -s pelicanconf.py content -o output
 cd output
 git add .
+git pull origin master
 git commit -m "Update"
 git push
 cd ../&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kang</dc:creator><pubDate>Fri, 25 Jul 2014 16:59:00 +0200</pubDate><guid>tag:kang-yu.github.com,2014-07-25:pelican-de-biao-zhun-fa-biao-mo-ban.html</guid><category>pelican</category><category>publishing</category><category>python</category></item></channel></rss>

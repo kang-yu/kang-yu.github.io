@@ -5,9 +5,11 @@
 &lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
 &lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
 &lt;p&gt;&amp;lt;在这里填写文件内容&amp;gt;&lt;/p&gt;
-&lt;p&gt;pelican -s pelicanconf.py content -o output
+&lt;p&gt;cd blog
+pelican -s pelicanconf.py content -o output
 cd output
 git add .
+git pull origin master
 git commit -m "Update"
 git push
 cd ../&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category><category term="python"></category></entry></feed>
