@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kang Yu</title><link>/blog/</link><description></description><atom:link href="/blog/feeds%5Ckang.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 08 Aug 2014 16:59:00 +0200</lastBuildDate><item><title>Blogging with Pelican and GitHub pages</title><link>/blog/blogging-with-pelican-and-github-pages.html</link><description>&lt;h1&gt;Recording how I created this blog site&lt;/h1&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kang Yu</title><link>/post/</link><description></description><atom:link href="/post/feeds%5Ckang.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 08 Aug 2014 16:59:00 +0200</lastBuildDate><item><title>Blogging with Pelican and GitHub pages</title><link>/post/blogging-with-pelican-and-github-pages.html</link><description>&lt;h1&gt;Recording how I created this blog site&lt;/h1&gt;
 &lt;h2&gt;Update the deployed github page&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;# update local file from remote&lt;/span&gt;
 &lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;
@@ -35,9 +35,9 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;creat a new aboutme.md in the pages fold, and it's done.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kang</dc:creator><pubDate>Fri, 08 Aug 2014 16:59:00 +0200</pubDate><guid>tag:,2014-08-08:blog/blogging-with-pelican-and-github-pages.html</guid><category>pelican</category><category>github</category><category>python</category></item><item><title>My first painful pelican post in win 7</title><link>/blog/my-first-painful-pelican-post-in-win-7.html</link><description>&lt;h1&gt;Hello!&lt;/h1&gt;
+&lt;p&gt;creat a new aboutme.md in the pages fold, and it's done.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kang</dc:creator><pubDate>Fri, 08 Aug 2014 16:59:00 +0200</pubDate><guid>tag:,2014-08-08:post/blogging-with-pelican-and-github-pages.html</guid><category>pelican</category><category>github</category><category>python</category></item><item><title>My first painful pelican post in win 7</title><link>/post/my-first-painful-pelican-post-in-win-7.html</link><description>&lt;h1&gt;Hello!&lt;/h1&gt;
 &lt;p&gt;Can you explain how it was painful to get Pelican+GitHub done in win?&lt;/p&gt;
 &lt;p&gt;No!&lt;/p&gt;
 &lt;p&gt;You can't?&lt;/p&gt;
 &lt;p&gt;No! &lt;/p&gt;
-&lt;p&gt;No, I did not say i can't, but I do not want to. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kang</dc:creator><pubDate>Fri, 08 Aug 2014 00:00:00 +0200</pubDate><guid>tag:,2014-08-08:blog/my-first-painful-pelican-post-in-win-7.html</guid><category>blog</category><category>github</category><category>win</category></item></channel></rss>
+&lt;p&gt;No, I did not say i can't, but I do not want to. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kang</dc:creator><pubDate>Fri, 08 Aug 2014 00:00:00 +0200</pubDate><guid>tag:,2014-08-08:post/my-first-painful-pelican-post-in-win-7.html</guid><category>blog</category><category>github</category><category>win</category></item></channel></rss>
