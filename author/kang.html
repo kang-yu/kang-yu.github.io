@@ -1,111 +1,149 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-  <head>
-    <title>Posts von Kang - Kang Yu</title>
-    <link href="http://fonts.googleapis.com/css?family=Arimo:400,700|Inika" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="/theme/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="/theme/pastie.css" />
-    <link href="/" type="application/atom+xml" rel="alternate" title="Kang Yu Atom Feed" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Kang Yu - Kang</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://www.kangyu.org/theme/css/main.css" type="text/css" />
+   
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="http://www.kangyu.org/css/ie.css"/>
+                <script src="http://www.kangyu.org/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="http://www.kangyu.org/css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+<a href="http://github.com/kang-yu">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="http://www.kangyu.org">Kang Yu </a></h1>
+                <nav><ul>
+                    <li><a href="http://www.kangyu.org/pages/contact.html">Contact</a></li>
+                    <li><a href="http://www.kangyu.org/pages/publications.html">Publications</a></li>
+                    <li><a href="http://www.kangyu.org/pages/resume.html">Resume</a></li>
+                    <li ><a href="http://www.kangyu.org/category/pelican.html">Pelican</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+        
+        
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://www.kangyu.org/posts/2014/Aug/08/blogging-with-pelican-and-github-pages/">Blogging with Pelican and GitHub pages</a></h1> 
+<footer class="post-info">
+        <abbr class="published" title="2014-08-08T16:59:00">
+                Fri 08 August 2014
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="http://www.kangyu.org/author/kang.html">Kang</a>
+        </address>
+<p>In <a href="http://www.kangyu.org/category/pelican.html">Pelican</a>. </p>
+<p>tags: <a href="http://www.kangyu.org/tag/pelican.html">pelican</a><a href="http://www.kangyu.org/tag/github.html">github</a><a href="http://www.kangyu.org/tag/python.html">python</a></p></footer><!-- /.post-info --><h1>Recording how I created this blog site</h1>
+<h2>Update the deployed github page</h2>
+<div class="highlight"><pre><span class="cp"># update local file from remote</span>
+<span class="n">cd</span> <span class="n">output</span>
+<span class="n">git</span> <span class="n">pull</span> <span class="n">origin</span> <span class="n">master</span>
+
+<span class="cp"># update site from local</span>
+<span class="n">cd</span>
+<span class="n">cd</span> <span class="n">blog</span>
+<span class="n">pelican</span> <span class="o">-</span><span class="n">s</span> <span class="n">pelicanconf</span><span class="p">.</span><span class="n">py</span> <span class="n">content</span> <span class="o">-</span><span class="n">o</span> <span class="n">output</span>
+<span class="n">cd</span> <span class="n">output</span>
+<span class="n">git</span> <span class="n">add</span> <span class="p">.</span>
+<span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s">&quot;Update&quot;</span>
+<span class="n">git</span> <span class="n">push</span>
+</pre></div>
 
 
-  </head>
+<p>custom url using Slug in Markdown, e.g.,</p>
+<div class="highlight"><pre><span class="n">Slug</span><span class="o">:</span> <span class="n">My</span><span class="o">-</span><span class="n">first</span><span class="o">-</span><span class="n">painful</span><span class="o">-</span><span class="n">pelican</span><span class="o">-</span><span class="n">post</span><span class="o">-</span><span class="k">in</span><span class="o">-</span><span class="n">win</span><span class="o">-</span><span class="mi">7</span>
+</pre></div>
 
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="span8">
-<div id="content">
-<h2>Posts von Kang</h2>
 
-<ul class="unstyled">
-        <li>
-            <div>
-                <div class="header">
-                    <h2>Blogging with Pelican and GitHub pages</h2>
-                </div>
-                <p class="meta"><small><span><a href="/author/kang/">Kang</a> - </span><span>Fri 08 August 2014</span> - <span class="tags"><a href="/tag/pelican/">pelican</a>, <a href="/tag/github/">github</a>, <a href="/tag/python/">python</a></span></small></p>
+<p>custom pelican-themes</p>
+<div class="highlight"><pre><span class="n">cd</span> <span class="n">blog</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="o">:</span><span class="c1">//github.com/getpelican/pelican-themes.git</span>
+<span class="n">cd</span> <span class="n">pelican</span><span class="o">-</span><span class="n">themes</span>  
+<span class="n">pelican</span><span class="o">-</span><span class="n">themes</span> <span class="o">-</span><span class="n">i</span> <span class="n">bootstrap2</span>
+</pre></div>
+
+
+<h2>Create a About page</h2>
+<p>creat a "pages" folder for individual pages, e.g., a about-me page </p>
+<div class="highlight"><pre><span class="n">mkdir</span> <span class="n">content</span><span class="o">/</span><span class="n">pages</span>
+</pre></div>
+
+
+<p>creat a new aboutme.md in the pages fold, and it's done.</p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                        <h1><a href="http://www.kangyu.org/posts/2014/Aug/08/my-first-painful-pelican-post-in-win-7/" rel="bookmark" title="Permalink to My first painful pelican post in win 7">My first painful pelican post in win 7</a></h1>
+                </header>
+                
                 <div class="entry-content">
-                    <p>In this post I note down some of the essential steps for using Pelican and GitHub pages in windows system.</p>
-                </div><!-- /.entry-content -->
-                <div class="row">
-                    <div class="span4">
-                    </div>
-                    <div class="span1 offset3">
-                        <a class="btn btn-small" href="/posts/2014/Aug/08/blogging-with-pelican-and-github-pages/" rel="bookmark" title="Permalink to Blogging with Pelican and GitHub pages">Mehr</a>
-                    </div>
-                </div>
-            </div>
-        </li>
+<footer class="post-info">
+        <abbr class="published" title="2014-08-08T00:00:00">
+                Fri 08 August 2014
+        </abbr>
 
-        <li><hr /></li>
-        <li>
-            <div>
-                <div class="header">
-                    <h2>My first painful pelican post in win 7</h2>
-                </div>
-                <p class="meta"><small><span><a href="/author/kang/">Kang</a> - </span><span>Fri 08 August 2014</span> - <span class="tags"><a href="/tag/blog/">blog</a>, <a href="/tag/github/">github</a>, <a href="/tag/win/">win</a></span></small></p>
-                <div class="entry-content">
-                    <h1>Hello!</h1>
+        <address class="vcard author">
+                By <a class="url fn" href="http://www.kangyu.org/author/kang.html">Kang</a>
+        </address>
+<p>In <a href="http://www.kangyu.org/category/pelican.html">pelican</a>. </p>
+<p>tags: <a href="http://www.kangyu.org/tag/blog.html">blog</a><a href="http://www.kangyu.org/tag/github.html">github</a><a href="http://www.kangyu.org/tag/win.html">win</a></p></footer><!-- /.post-info -->                <h1>Hello!</h1>
 <p>Can you explain how it was painful to get Pelican+GitHub done in win?</p>
 <p>No!</p>
 <p>You can't?</p>
 <p>No! </p>
 <p>No, I did not say i can't, but I do not want to. </p>
+                <a class="readmore" href="http://www.kangyu.org/posts/2014/Aug/08/my-first-painful-pelican-post-in-win-7/">read more</a>
                 </div><!-- /.entry-content -->
-                <div class="row">
-                    <div class="span4">
-                    </div>
-                    <div class="span1 offset3">
-                        <a class="btn btn-small" href="/posts/2014/Aug/08/my-first-painful-pelican-post-in-win-7/" rel="bookmark" title="Permalink to My first painful pelican post in win 7">Mehr</a>
-                    </div>
-                </div>
-            </div>
-        </li>
+            </article></li>
+<p class="paginator">
+    Page 1 / 1
+</p>
+            </ol><!-- /#posts-list -->
+            </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://www.uni-koeln.de/">Univ Cologne</a></li>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            
+                            <li><a href="https://github.com/kang-yu">Github</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
 
-        <li><hr /></li>
-</ul><!-- /#posts-list -->
+        <footer id="contentinfo" class="body">
 
-<div class="pagination pagination-centered">
-    <ul>
-        <li class="active"><a href="#">1</a></li>
-    </ul>
-</div>
-</div><!-- /#content -->
-        </div>
-        <div class="span3 offset1">
-          <div class="well">
-            <ul class="nav nav-list">
-              <li class="nav-header">Blog</li>
-              <li ><a href="">Index</a></li>
-              <li ><a href="/tags/">Tags</a></li>
-              <li ><a href="/archives/">Archiv</a></li>
-              <li class="nav-header">Seiten</li>
-              <li><a href="/pages/contact.html">Contact</a></li>
-              <li><a href="/pages/publications.html">Publications</a></li>
-              <li><a href="/pages/resume.html">Resume</a></li>
-              <li class="nav-header">Links</li>
-              <li><a href="http://www.uni-koeln.de/">Univ Cologne</a></li>
-              <li><a href="http://getpelican.com/">Pelican</a></li>
-              <li><a href="http://python.org/">Python.org</a></li>
-              <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-              <li><a href="#">You can modify those links in your config file</a></li>
-            </ul>
-          </div><!-- /#menu -->
-        </div>
-      </div>
+        </footer><!-- /#contentinfo -->
 
-      <hr />
-
-      <div class="row">
-        <div class="span12">
-          <div id="about">
-            <p>Proudly powered by <a href="http://twitter.github.com/bootstrap/">bootstrap</a>, <a href="http://docs.notmyidea.org/alexis/pelican/">pelican</a>, <a href="http://python.org">python</a> and <a href="http://www.julo.ch/about/">Alex</a>!</p>
-          </div><!-- /#about -->
-        </div><!-- /#contentinfo -->
-      </div>
-    </div>
-
-
-  </body>
+</body>
 </html>
