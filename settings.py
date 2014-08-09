@@ -53,7 +53,7 @@ PAGE_URL = '../{slug}.html'
 PAGE_SAVE_AS = '../{slug}.html'
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
-MENUITEMS = [('Home', '/'), ('Blog', '/blog/')]
+# MENUITEMS = [('Home', '/'), ('Blog', '/blog/')]
 
 # code blocks with line numbers
 PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
