@@ -30,8 +30,8 @@
 
 
 &lt;h2&gt;Create a About page&lt;/h2&gt;
-&lt;p&gt;creat the "pages" fold for individual pages, e.g., a about-me page &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;mkdir&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt; &lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="n"&gt;can&lt;/span&gt; &lt;span class="n"&gt;be&lt;/span&gt; &lt;span class="n"&gt;done&lt;/span&gt; &lt;span class="n"&gt;by&lt;/span&gt; &lt;span class="n"&gt;adding&lt;/span&gt; &lt;span class="n"&gt;new&lt;/span&gt; &lt;span class="n"&gt;fold&lt;/span&gt; &lt;span class="n"&gt;manually&lt;/span&gt;
+&lt;p&gt;creat a "pages" folder for individual pages, e.g., a about-me page &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;mkdir&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
