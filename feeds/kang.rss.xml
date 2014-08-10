@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kang Yu</title><link>http://www.kangyu.org/</link><description></description><atom:link href="http://www.kangyu.org/feeds%5Ckang.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 08 Aug 2014 16:59:00 +0200</lastBuildDate><item><title>Blogging with Pelican and GitHub pages</title><link>http://www.kangyu.org/posts/2014/Aug/08/blogging-with-pelican-and-github-pages/</link><description>&lt;h1&gt;Recording how I created this blog site&lt;/h1&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KangYu.org</title><link>http://www.kangyu.org/</link><description></description><atom:link href="http://www.kangyu.org/feeds%5Ckang.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 08 Aug 2014 16:59:00 +0200</lastBuildDate><item><title>Blogging with Pelican and GitHub pages</title><link>http://www.kangyu.org/posts/2014/Aug/08/blogging-with-pelican-and-github-pages/</link><description>&lt;h1&gt;Recording how I created this blog site&lt;/h1&gt;
 &lt;h2&gt;Update the deployed github page&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;# update local file from remote&lt;/span&gt;
 &lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;
