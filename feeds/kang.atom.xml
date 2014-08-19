@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>KangYu.org</title><link href="http://kangyu.org/" rel="alternate"></link><link href="http://kangyu.org/feeds%5Ckang.atom.xml" rel="self"></link><id>http://kangyu.org/</id><updated>2014-08-08T16:59:00+02:00</updated><entry><title>Blogging with Pelican and GitHub pages</title><link href="http://kangyu.org/posts/2014/Aug/08/blogging-with-pelican-and-github-pages/" rel="alternate"></link><updated>2014-08-08T16:59:00+02:00</updated><author><name>Kang</name></author><id>tag:kangyu.org,2014-08-08:posts/2014/Aug/08/blogging-with-pelican-and-github-pages/</id><summary type="html">&lt;h1&gt;Recording how I created this blog site&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>KangYu.org</title><link href="http://kangyu.org/" rel="alternate"></link><link href="http://kangyu.org/feeds%5Ckang.atom.xml" rel="self"></link><id>http://kangyu.org/</id><updated>2014-08-08T16:59:00+02:00</updated><entry><title>Blogging with Pelican and GitHub pages</title><link href="http://kangyu.org/posts/2014/Aug/08/blogging-with-pelican-and-github-pages/" rel="alternate"></link><updated>2014-08-08T16:59:00+02:00</updated><author><name>Kang</name></author><id>tag:kangyu.org,2014-08-08:posts/2014/Aug/08/blogging-with-pelican-and-github-pages/</id><summary type="html">&lt;h2&gt;Recording how I created this blog site&lt;/h2&gt;
+&lt;h4&gt;Pelican virtualenv&lt;/h4&gt;
+&lt;p&gt;cmd window&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;virtualenv&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Git Bash&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;
+&lt;span class="n"&gt;source&lt;/span&gt; &lt;span class="n"&gt;Scripts&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;activate&lt;/span&gt;
+&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;clone&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//github.com/getpelican/pelican.git&lt;/span&gt;
+&lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;span class="n"&gt;python&lt;/span&gt; &lt;span class="n"&gt;setup&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt;
+&lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;Markdown&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;h2&gt;Update the deployed github page&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;# update local file from remote&lt;/span&gt;
 &lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;

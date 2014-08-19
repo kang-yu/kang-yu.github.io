@@ -104,7 +104,23 @@ KangYu.org            </a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <h1>Recording how I created this blog site</h1>
+                <h2>Recording how I created this blog site</h2>
+<h4>Pelican virtualenv</h4>
+<p>cmd window</p>
+<div class="highlight"><pre><span class="n">virtualenv</span> <span class="n">pelican</span>
+</pre></div>
+
+
+<p>Git Bash</p>
+<div class="highlight"><pre><span class="n">cd</span> <span class="n">pelican</span>
+<span class="n">source</span> <span class="n">Scripts</span><span class="o">/</span><span class="n">activate</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="o">:</span><span class="c1">//github.com/getpelican/pelican.git</span>
+<span class="n">cd</span> <span class="n">pelican</span><span class="o">/</span>
+<span class="n">python</span> <span class="n">setup</span><span class="p">.</span><span class="n">py</span> <span class="n">install</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="n">Markdown</span>
+</pre></div>
+
+
 <h2>Update the deployed github page</h2>
 <div class="highlight"><pre><span class="cp"># update local file from remote</span>
 <span class="n">cd</span> <span class="n">output</span>
