@@ -105,13 +105,21 @@ KangYu.org            </a>
 </footer><!-- /.post-info -->                    </div>
                 </div>
                 <h2>Recording how I created this blog site</h2>
-<h4>Pelican virtualenv</h4>
-<p>cmd window</p>
+<h3>1. Install Python and virtualenv using <code>Powershell</code></h3>
+<p>I installed python 3 and configured the virtualenv following the instruction described here <code>http://my.phirobot.com/blog/2014-02-python_in_windows.html</code>. However, I got error message</p>
+<div class="highlight"><pre><span class="n">TOKEN_READ</span> <span class="o">=</span> <span class="mh">0x00020000L</span> <span class="o">|</span> <span class="mh">0x0008</span>
+<span class="n">Syntax</span> <span class="n">error</span><span class="o">:</span> <span class="n">invalid</span> <span class="n">syntax</span>
+</pre></div>
+
+
+<p>when install virtualenvwrapper-powershell. After trying several time, the error message remained. I googled the error message and finally found the <a href="https://bitbucket.org/guillermooo/virtualenvwrapper-powershell/issue/5/cant-install-package-with-python3-and-pip">solution</a>. </p>
+<h3>2. Install Pelican in virtualenv</h3>
+<p>set up a pelican virtual env in the <code>cmd</code> window</p>
 <div class="highlight"><pre><span class="n">virtualenv</span> <span class="n">pelican</span>
 </pre></div>
 
 
-<p>Git Bash</p>
+<p>install pelican using <code>Git Bash</code></p>
 <div class="highlight"><pre><span class="n">cd</span> <span class="n">pelican</span>
 <span class="n">source</span> <span class="n">Scripts</span><span class="o">/</span><span class="n">activate</span>
 <span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="o">:</span><span class="c1">//github.com/getpelican/pelican.git</span>
@@ -121,7 +129,9 @@ KangYu.org            </a>
 </pre></div>
 
 
-<h2>Update the deployed github page</h2>
+<h3>3. Create a new blog using Pelican and host it in Github</h3>
+<p>just follow the instructions from google </p>
+<h3>4. Update the deployed github page</h3>
 <div class="highlight"><pre><span class="cp"># update local file from remote</span>
 <span class="n">cd</span> <span class="n">output</span>
 <span class="n">git</span> <span class="n">pull</span> <span class="n">origin</span> <span class="n">master</span>
@@ -137,12 +147,7 @@ KangYu.org            </a>
 </pre></div>
 
 
-<p>custom url using Slug in <code>Markdown</code>, e.g.,</p>
-<div class="highlight"><pre><span class="n">Slug</span><span class="o">:</span> <span class="n">My</span><span class="o">-</span><span class="n">first</span><span class="o">-</span><span class="n">painful</span><span class="o">-</span><span class="n">pelican</span><span class="o">-</span><span class="n">post</span><span class="o">-</span><span class="k">in</span><span class="o">-</span><span class="n">win</span><span class="o">-</span><span class="mi">7</span>
-</pre></div>
-
-
-<p>custom pelican-themes</p>
+<h3>Install pelican-themes</h3>
 <div class="highlight"><pre><span class="n">cd</span> <span class="n">blog</span>
 <span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="o">:</span><span class="c1">//github.com/getpelican/pelican-themes.git</span>
 <span class="n">cd</span> <span class="n">pelican</span><span class="o">-</span><span class="n">themes</span>  
@@ -150,13 +155,13 @@ KangYu.org            </a>
 </pre></div>
 
 
-<h2>Create a About page</h2>
+<h3>Create a About page</h3>
 <p>creat a <code>pages</code> folder for individual pages, e.g., a about me page </p>
 <div class="highlight"><pre><span class="n">mkdir</span> <span class="n">content</span><span class="o">/</span><span class="n">pages</span>
 </pre></div>
 
 
-<p>creat a new <code>about.md</code> in the <code>pages</code> fold, and it's done.</p>
+<p>creat a new markdown file <code>about.md</code> in the <code>pages</code> fold, and it's done.</p>
             </div>
             <!-- /.entry-content -->
 <section class="well" id="related-posts">
