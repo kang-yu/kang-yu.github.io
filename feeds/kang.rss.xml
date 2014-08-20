@@ -25,7 +25,7 @@
 
 
 &lt;h3&gt;3. Create a new blog using Pelican and host it in Github&lt;/h3&gt;
-&lt;p&gt;just follow the instructions from google &lt;/p&gt;
+&lt;p&gt;just follow the instructions for pelican and github pages&lt;/p&gt;
 &lt;h3&gt;4. Update the deployed github page&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;# update local file from remote&lt;/span&gt;
 &lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;
@@ -56,7 +56,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;creat a new markdown file &lt;code&gt;about.md&lt;/code&gt; in the &lt;code&gt;pages&lt;/code&gt; fold, and it's done.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kang</dc:creator><pubDate>Fri, 08 Aug 2014 16:59:00 +0200</pubDate><guid>tag:kangyu.org,2014-08-08:posts/2014/Aug/08/blogging-with-pelican-and-github-pages/</guid><category>pelican</category><category>github</category><category>python</category></item><item><title>My first painful pelican post in win 7</title><link>http://kangyu.org/posts/2014/Aug/08/my-first-painful-pelican-post-in-win-7/</link><description>&lt;h3&gt;Hello! New website!&lt;/h3&gt;
+&lt;p&gt;creat a new markdown file &lt;code&gt;about.md&lt;/code&gt; in the &lt;code&gt;pages&lt;/code&gt; fold, update, and it's done.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kang</dc:creator><pubDate>Fri, 08 Aug 2014 16:59:00 +0200</pubDate><guid>tag:kangyu.org,2014-08-08:posts/2014/Aug/08/blogging-with-pelican-and-github-pages/</guid><category>pelican</category><category>github</category><category>python</category></item><item><title>My first painful pelican post in win 7</title><link>http://kangyu.org/posts/2014/Aug/08/my-first-painful-pelican-post-in-win-7/</link><description>&lt;h3&gt;Hello! New website!&lt;/h3&gt;
 &lt;p&gt;Can you explain how it was painful to get Pelican+GitHub done in Windows?&lt;/p&gt;
 &lt;p&gt;-No!&lt;/p&gt;
 &lt;p&gt;You can't?&lt;/p&gt;
