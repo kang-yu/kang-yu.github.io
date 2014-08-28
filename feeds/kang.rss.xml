@@ -7,7 +7,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;when install virtualenvwrapper-powershell. After trying several time, the error message remained. I googled the error message and finally found the &lt;a href="https://bitbucket.org/guillermooo/virtualenvwrapper-powershell/issue/5/cant-install-package-with-python3-and-pip"&gt;solution&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;when install virtualenvwrapper-powershell. After trying several time, the error message remained. I googled the error message and finally found the &lt;a href="https://bitbucket.org/guillermooo/virtualenvwrapper-powershell/issue/5/cant-install-package-with-python3-and-pip"&gt;&lt;strong&gt;solution&lt;/strong&gt;&lt;/a&gt;. &lt;/p&gt;
 &lt;h3&gt;2. Install Pelican in virtualenv&lt;/h3&gt;
 &lt;p&gt;set up a pelican virtual env in the &lt;code&gt;cmd&lt;/code&gt; window&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;virtualenv&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;
