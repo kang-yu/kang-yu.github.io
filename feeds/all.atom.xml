@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>KangYu.org</title><link href="http://kangyu.org/" rel="alternate"></link><link href="http://kangyu.org/feeds/all.atom.xml" rel="self"></link><id>http://kangyu.org/</id><updated>2014-09-03T00:00:00+02:00</updated><entry><title>Our very-home-made lamb shashlik!</title><link href="http://kangyu.org/posts/2014/Aug/31/our-very-home-made-lamb-shashlik/" rel="alternate"></link><updated>2014-09-03T00:00:00+02:00</updated><author><name>Kang</name></author><id>tag:kangyu.org,2014-08-31:posts/2014/Aug/31/our-very-home-made-lamb-shashlik/</id><summary type="html">&lt;p&gt;Time: Sunday afternoon&lt;/p&gt;
-&lt;p&gt;Abstract: To celebrate &lt;code&gt;Li'ang&lt;/code&gt; passed the theory test for driving license, we made a bbq and lamb shashlik. &lt;/p&gt;
-&lt;p&gt;Introduction:&lt;/p&gt;
-&lt;p&gt;Materials and methods:
-... to be updated&lt;/p&gt;
-&lt;p&gt;Results: as shown in the picture.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/RhuBls9"&gt;&lt;img src="http://i.imgur.com/RhuBls9.jpg" title="Chef-Yu shashlik"/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Conclusions: All of the four guys drawn a same conclusion that our home made lamb shashlik were not statistically different (&lt;code&gt;p &amp;gt; 0.1&lt;/code&gt;) from the traditional Chinese ones, and that ours tasted even better.&lt;/p&gt;</summary><category term="life"></category></entry><entry><title>Blogging with Pelican and GitHub pages</title><link href="http://kangyu.org/posts/2014/Aug/08/blogging-with-pelican-and-github-pages/" rel="alternate"></link><updated>2014-08-08T16:59:00+02:00</updated><author><name>Kang</name></author><id>tag:kangyu.org,2014-08-08:posts/2014/Aug/08/blogging-with-pelican-and-github-pages/</id><summary type="html">&lt;h2&gt;Recording how I created this blog site&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>KangYu.org</title><link href="http://kangyu.org/" rel="alternate"></link><link href="http://kangyu.org/feeds/all.atom.xml" rel="self"></link><id>http://kangyu.org/</id><updated>2014-09-03T00:00:00+02:00</updated><entry><title>Our very-home-made lamb shashlik!</title><link href="http://kangyu.org/posts/2014/Aug/31/our-very-home-made-lamb-shashlik/" rel="alternate"></link><updated>2014-09-03T00:00:00+02:00</updated><author><name>Kang</name></author><id>tag:kangyu.org,2014-08-31:posts/2014/Aug/31/our-very-home-made-lamb-shashlik/</id><summary type="html">&lt;p&gt;Manuscript status: in revision
+Time: Sunday afternoon&lt;/p&gt;
+&lt;h3&gt;Abstract:&lt;/h3&gt;
+&lt;p&gt;To celebrate &lt;code&gt;Li'ang&lt;/code&gt; passed the theory test for driving license, we made the lamb shashlik for BBQ on the last day of August. We conclude that it was the most delicious shashlik that we had ever tasted.&lt;/p&gt;
+&lt;h3&gt;Introduction:&lt;/h3&gt;
+&lt;h3&gt;Materials and methods:&lt;/h3&gt;
+&lt;p&gt;... to be updated&lt;/p&gt;
+&lt;h3&gt;Results:&lt;/h3&gt;
+&lt;p&gt;... as shown in the picture.&lt;/p&gt;
+&lt;h3&gt;Conclusions:&lt;/h3&gt;
+&lt;p&gt;All of the four guys drawn a same conclusion that our home made lamb shashlik was not statistically different (&lt;code&gt;p &amp;gt; 0.1&lt;/code&gt;) from the traditional Chinese ones, and that ours tasted even better.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/RhuBls9"&gt;&lt;img src="http://i.imgur.com/RhuBls9.jpg" title="Chef-Yu shashlik"/&gt;&lt;/a&gt;&lt;/p&gt;</summary><category term="life"></category></entry><entry><title>Blogging with Pelican and GitHub pages</title><link href="http://kangyu.org/posts/2014/Aug/08/blogging-with-pelican-and-github-pages/" rel="alternate"></link><updated>2014-08-08T16:59:00+02:00</updated><author><name>Kang</name></author><id>tag:kangyu.org,2014-08-08:posts/2014/Aug/08/blogging-with-pelican-and-github-pages/</id><summary type="html">&lt;h2&gt;Recording how I created this blog site&lt;/h2&gt;
 &lt;h3&gt;1. Install Python and virtualenv using &lt;code&gt;Powershell&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;I installed python 3 and configured the virtualenv following the instruction described here &lt;code&gt;http://my.phirobot.com/blog/2014-02-python_in_windows.html&lt;/code&gt;. However, I got error message&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;TOKEN_READ&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mh"&gt;0x00020000L&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="mh"&gt;0x0008&lt;/span&gt;
